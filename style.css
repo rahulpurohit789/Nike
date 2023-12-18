@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilory';
+}
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px;
+}
+#nav-part1 {
+    height: 39px;
+    overflow: hidden;
+    
+}
+#nav-part1 img{
+    display: block;
+}
+#nav-part2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+#nav-part2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.icon{
+    display: inline-block;
+    padding: 0px 20px;
+}
+ .icons{
+    margin-right: 50px;
+ }
+#nav img{
+    height: 39px;
+    width:  98.88px;
+    padding-top: -150px;
+}
+html, body{
+ height: 100%;
+ width: 100%;
+}
+#page1{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 3vw;
+    padding-top: 15vh;
+}
+#page1 h1{
+    font-size: 15vw;
+    font-family: futura;
+    line-height: 13vw;
+    letter-spacing: -5px;
+}
+#video-container{
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#video-container #play{
+    padding: 1.5vw 1vw;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 1vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: futura;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+
+}
+#page2{
+ 
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding: 3vw 1vw;
+    justify-content: space-between;
+    
+}
+#page2 .elem{
+    margin-top: -100px;
+    height: 40%;
+    width: 31%;
+    overflow: hidden;
+    background-color: #f7f1f1;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  
+}
+#page2 .img{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    scale: 1.1;
+
+}
+.elem .dets{
+    height: 30px;
+    border-radius: 50px;
+    width: 20%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin-top: 3px;
+    padding-top: 3px;
+}
+#main a{
+    color: #fff;
+    text-decoration: none;
+}
+#page3{
+   min-height: 50vh;
+   width: 100%;
+}
+#page3 h2{
+    padding-left: 5vh;
+    font-family: futura;
+    
+}
+#page3 video{
+    height: 100%;
+    width: 100%;
+    padding: 1vh 5vh;
+}
+#page3 .dets{
+    height: 30px;
+    border-radius: 50px;
+    width: 20%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    margin-top: 3px;
+    padding-top: 3px;
+    margin-left: 5vh;
+} 
+#page4{
+    margin-top: 2vh;
+    min-height: 50vh;
+    width: 100%;
+    background-color: #f7f1f1;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child{
+    height: 30vh;
+    width: 26vw;
+    background-color: #C4C0C5;
+    position: relative;
+}
+.automate{
+    height: 100%;
+    width: 100%;
+}
+.automate img{
+
+    height: 100%;
+    width: 50%;
+
+}
+.imgcont{
+    height: 55vh;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.automate h5,p{
+ color: black;
+}
+#nav-part1-mini {
+    height: 39px;
+    overflow: hidden;
+}
+#nav-part1-mini .img{
+    opacity: 0.2;
+}
+
+#navmini img{
+    height: 39px;
+    width:  98.88px;
+    padding-top: -150px;
+    display: block;
+}
+#navmini .icon{
+    background-color: rgba(255, 255, 255, 0.946);
+    padding: 0px;
+    height: 14px;
+}
+#navmini ul {
+ background-color: rgba(255, 255, 255, 0.829);
+}
+#navmini ul a {
+    color: black;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#big{
+    min-height: 40vh;
+    background-color: black;
+}
+
+#new{
+    display: flex;
+    justify-content: center;
+}
+
+.black{
+    background-color: transparent;
+}
+.black a,.down {
+    color: #fff !important;
+}
+#navmini ul li {
+    padding: 5px;
+}
+#navmini .dropdown a  {
+    background-color: transparent;
+    padding: 2px;
+    height: 25px;
+    width: 50px;
+}
+#navmini{
+    min-height: 0vh;
+    width: 100%;
+    background-color:transparent;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px;
+}
+@media (min-width:600px){
+#navmini{
+    display: none;
+}
+}
+
+@media (max-width:600px){
+    
+    #page2 #elem3{
+        margin-bottom: 30px;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #page1{
+        min-height: 70vh;
+        position: relative;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vh;
+    }
+    #page1 h1{
+        font-size: 15vw;
+        letter-spacing: -2px;
+    }
+    #video-container{
+        height: 25vh;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #video-container #play{
+        padding: 4vw 1.5vw;
+        
+        font-size: 4vw;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        text-transform: uppercase;
+        font-family: futura;
+        border-radius: 50%;
+        opacity: 1;
+        scale: 1;
+    
+    }#page2{
+        min-height: 50vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        padding: 5vw 3vw;
+        justify-content: space-between;
+      
+    }
+    #page2 .elem{
+        margin-top: -100px;
+        margin-bottom: 200px;
+        padding: 0;
+        height: 40%;
+        width:80%;
+        overflow: hidden;
+        background-color: #f7f1f1;
+    }
+    #page2 .img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        scale: 1.1;
+    }
+    #page3 {
+        min-height: 32vh;
+        width: 100%;
+    }
+    #page3 h2{
+        padding-left: 1vh;
+     
+    }  
+    #page3 .dets{
+        margin-left: 1vh;
+        ;
+    }
+    
+    #page3 video{
+        padding: 1vh;
+    }
+    #page4{
+        flex-direction: column;
+        min-height: 50vh;
+        width: 100%;
+        margin-top: 4vh;
+    }
+    .child {
+        height: 30vh;
+        width: 79vw;
+        background-color: #C4C0C5;
+        position: relative;
+    }
+}
